@@ -65,7 +65,7 @@ public class ArrayListClass {
 
 		for (int i = 0; i < 10; i++) {
 			int random = (int)(Math.random() * 100) + 1;
-			System.out.println(random);
+			System.out.print(random + " ");
 			list.add(random);
 		}
 		System.out.println(list);
