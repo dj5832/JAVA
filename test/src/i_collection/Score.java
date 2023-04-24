@@ -84,7 +84,9 @@ public class Score {
 			rank.set(i, rank.get(min));
 			rank.set(min, temp4);
 			
-			
+			String temp5 = names.get(i);
+			names.set(i, names.get(min));
+			names.set(min, temp5);
 		}
 		
 		
